@@ -49,7 +49,8 @@
 }
 
 // Voice Avatar
-.avatarSpeaking-2pCGrZ {
+.avatarSpeaking-2pCGrZ,
+.avatarSpeaking-33RRJU {
   box-shadow: inset 0 0 0 1.35px #{$dracula-green},
               inset 0 0 0 2px var(--background-secondary);
 }
@@ -59,5 +60,20 @@
   .rtcConnectionStatusConnected-1c73OK,
   .ping-2IpLcU .pingForeground-1BRBTc {
     color: #{$dracula-green};
+  }
+}
+
+// Live Tag
+.live-1V2D-f {
+  background-color: #{$dracula-red} !important;
+}
+
+// Discord Menu Logo
+.wrapper-3kah-n {
+  &:hover, &.selected-1Drb7Z {
+    .childWrapper-1j_1ub {
+      background-color: #{$dracula-purple};
+      color: #{$dracula-foreground};
+    }
   }
 }
