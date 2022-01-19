@@ -151,4 +151,21 @@ span.hljs-meta-string {
   color: #f8f8f2;
 }
 
+.folder-241Joy {
+  background-color: inherit;
+}
+
+.expandedFolderIconWrapper-3RwQpD {
+  background-color: #282a36;
+  transition: background-color 0.15s ease-out;
+  -webkit-transition: background-color 0.15s ease-out;
+}
+.expandedFolderIconWrapper-3RwQpD:hover {
+  background-color: #44475a;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background-color: #282a36;
+}
+
 /*# sourceMappingURL=main.css.map */
