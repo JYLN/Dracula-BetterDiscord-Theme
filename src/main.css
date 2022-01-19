@@ -28,6 +28,13 @@
   background-color: var(--background-primary);
 }
 
+.header-3OsQeK,
+.content-1jQy2l:before,
+.tabBody-2dgbAs:before,
+.searchBar-3TnChZ {
+  box-shadow: none;
+}
+
 code {
   color: #f8f8f2;
 }
