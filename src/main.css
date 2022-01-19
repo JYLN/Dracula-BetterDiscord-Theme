@@ -168,4 +168,15 @@ span.hljs-meta-string {
   background-color: #282a36;
 }
 
+.bf-toolbar::before {
+  background: #44475a;
+}
+
+.tooltipBlack-vMYxvw {
+  background-color: #343746 !important;
+}
+.tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
+  border-top-color: #343746 !important;
+}
+
 /*# sourceMappingURL=main.css.map */

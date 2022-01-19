@@ -1,0 +1,14 @@
+@import "../helpers/variables";
+
+.bf-toolbar {
+  &::before {
+    background: #{$dracula-selection};
+  }
+}
+
+.tooltipBlack-vMYxvw {
+  background-color: #{$dracula-background-alt} !important;
+  .tooltipPointer-3L49xb {
+    border-top-color: #{$dracula-background-alt} !important;
+  }
+}
