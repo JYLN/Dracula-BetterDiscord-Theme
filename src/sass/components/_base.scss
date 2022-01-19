@@ -5,7 +5,9 @@
   --background-primary: #{$dracula-background} !important;
   --background-secondary: #{$dracula-background} !important;
   --background-secondary-alt: #{$dracula-background} !important;
-  --background-tertiary: #{$dracula-background} !important;
+  --background-mobile-primary: #{$dracula-background} !important;
+  --background-mobile-secondary: #{$dracula-background} !important;
+  --background-tertiary: #{$dracula-background-alt} !important;
   --background-accent: #{$dracula-current-line} !important;
   --background-floating: #{$dracula-background} !important;
   --background-modifier-selected: #{$dracula-current-line} !important;
@@ -19,13 +21,12 @@
   --rs-streaming-color: #{$dracula-purple} !important;
   --rs-invisible-color: #{$dracula-comment} !important;
   --interactive-muted: #{$dracula-comment} !important;
-}
+  --header-primary: #{$dracula-foreground} !important;
 
-// Scroll Bar
-.theme-dark {
-  --scrollbar-auto-track: #{$dracula-selection};
+  // Scroll Bar
+  --scrollbar-auto-track: #{$dracula-background-alt};
   --scrollbar-auto-thumb: #{$dracula-purple};
-  --scrollbar-thin-thumb: #{$dracula-green};
+  --scrollbar-thin-thumb: #{$dracula-comment};
 }
 
 // Friends List
@@ -48,7 +49,8 @@
 }
 
 // Voice Avatar
-.avatarSpeaking-2pCGrZ {
+.avatarSpeaking-2pCGrZ,
+.avatarSpeaking-33RRJU {
   box-shadow: inset 0 0 0 1.35px #{$dracula-green},
               inset 0 0 0 2px var(--background-secondary);
 }
@@ -58,5 +60,20 @@
   .rtcConnectionStatusConnected-1c73OK,
   .ping-2IpLcU .pingForeground-1BRBTc {
     color: #{$dracula-green};
+  }
+}
+
+// Live Tag
+.live-1V2D-f {
+  background-color: #{$dracula-red} !important;
+}
+
+// Discord Menu Logo
+.wrapper-3kah-n {
+  &:hover, &.selected-1Drb7Z {
+    .childWrapper-1j_1ub {
+      background-color: #{$dracula-purple};
+      color: #{$dracula-foreground};
+    }
   }
 }

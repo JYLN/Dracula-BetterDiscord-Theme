@@ -2,7 +2,9 @@
   --background-primary: #282a36 !important;
   --background-secondary: #282a36 !important;
   --background-secondary-alt: #282a36 !important;
-  --background-tertiary: #282a36 !important;
+  --background-mobile-primary: #282a36 !important;
+  --background-mobile-secondary: #282a36 !important;
+  --background-tertiary: #343746 !important;
   --background-accent: #44475a !important;
   --background-floating: #282a36 !important;
   --background-modifier-selected: #44475a !important;
@@ -16,12 +18,10 @@
   --rs-streaming-color: #bd93f9 !important;
   --rs-invisible-color: #6272a4 !important;
   --interactive-muted: #6272a4 !important;
-}
-
-.theme-dark {
-  --scrollbar-auto-track: #44475a;
+  --header-primary: #f8f8f2 !important;
+  --scrollbar-auto-track: #343746;
   --scrollbar-auto-thumb: #bd93f9;
-  --scrollbar-thin-thumb: #50fa7b;
+  --scrollbar-thin-thumb: #6272a4;
 }
 
 [class^=peopleColumn] {
@@ -40,13 +40,23 @@
   color: #282a36;
 }
 
-.avatarSpeaking-2pCGrZ {
+.avatarSpeaking-2pCGrZ,
+.avatarSpeaking-33RRJU {
   box-shadow: inset 0 0 0 1.35px #50fa7b, inset 0 0 0 2px var(--background-secondary);
 }
 
 .rtcConnectionStatus-c5A6Av .rtcConnectionStatusConnected-1c73OK,
 .rtcConnectionStatus-c5A6Av .ping-2IpLcU .pingForeground-1BRBTc {
   color: #50fa7b;
+}
+
+.live-1V2D-f {
+  background-color: #ff5555 !important;
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-color: #bd93f9;
+  color: #f8f8f2;
 }
 
 code {
@@ -149,6 +159,34 @@ span.hljs-meta-string {
 }
 #app-mount .modeConnected-NrO4cP:hover .overflow-1wOqNV {
   color: #f8f8f2;
+}
+
+.folder-241Joy {
+  background-color: inherit;
+}
+
+.expandedFolderIconWrapper-3RwQpD {
+  background-color: #282a36;
+  transition: background-color 0.15s ease-out;
+  -webkit-transition: background-color 0.15s ease-out;
+}
+.expandedFolderIconWrapper-3RwQpD:hover {
+  background-color: #44475a;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background-color: #282a36;
+}
+
+.bf-toolbar::before {
+  background: #44475a;
+}
+
+.tooltipBlack-vMYxvw {
+  background-color: #343746 !important;
+}
+.tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
+  border-top-color: #343746 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
