@@ -19,13 +19,11 @@
   --rs-streaming-color: #{$dracula-purple} !important;
   --rs-invisible-color: #{$dracula-comment} !important;
   --interactive-muted: #{$dracula-comment} !important;
-}
 
-// Scroll Bar
-.theme-dark {
+  // Scroll Bar
   --scrollbar-auto-track: #{$dracula-selection};
   --scrollbar-auto-thumb: #{$dracula-purple};
-  --scrollbar-thin-thumb: #{$dracula-green};
+  --scrollbar-thin-thumb: #{$dracula-comment};
 }
 
 // Friends List

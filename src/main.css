@@ -16,12 +16,9 @@
   --rs-streaming-color: #bd93f9 !important;
   --rs-invisible-color: #6272a4 !important;
   --interactive-muted: #6272a4 !important;
-}
-
-.theme-dark {
   --scrollbar-auto-track: #44475a;
   --scrollbar-auto-thumb: #bd93f9;
-  --scrollbar-thin-thumb: #50fa7b;
+  --scrollbar-thin-thumb: #6272a4;
 }
 
 [class^=peopleColumn] {
