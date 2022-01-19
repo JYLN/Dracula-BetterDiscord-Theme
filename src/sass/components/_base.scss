@@ -1,0 +1,34 @@
+@import "../helpers/variables";
+
+// Discord Root Colors
+:root {
+  --background-primary: #{$dracula-background} !important;
+  --background-secondary: #{$dracula-background} !important;
+  --background-secondary-alt: #{$dracula-background} !important;
+  --background-tertiary: #{$dracula-background} !important;
+  --background-accent: #{$dracula-current-line} !important;
+  --background-floating: #{$dracula-background} !important;
+  --background-modifier-selected: #{$dracula-current-line} !important;
+  --activity-card-background: #{$dracula-background} !important;
+  --interactive-normal: #{$dracula-foreground} !important;
+  --channeltextarea-background: #{$dracula-selection} !important;
+  --rs-online-color: #{$dracula-green} !important;
+  --rs-idle-color: #{$dracula-orange} !important;
+  --rs-dnd-color: #{$dracula-red} !important;
+  --rs-offline-color: #{$dracula-selection} !important;
+  --rs-streaming-color: #{$dracula-purple} !important;
+  --rs-invisible-color: #{$dracula-comment} !important;
+  --interactive-muted: #{$dracula-comment} !important;
+}
+
+// Scroll Bar
+.theme-dark {
+  --scrollbar-auto-track: #{$dracula-selection};
+  --scrollbar-auto-thumb: #{$dracula-purple};
+  --scrollbar-thin-thumb: #{$dracula-green};
+}
+
+// Friends List
+[class^='peopleColumn'] {
+  background-color: var(--background-primary);
+}
