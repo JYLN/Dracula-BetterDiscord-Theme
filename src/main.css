@@ -179,7 +179,7 @@ span.hljs-meta-string {
 }
 
 .bf-toolbar::before {
-  background: #44475a;
+  background: #44475a !important;
 }
 
 .tooltipBlack-vMYxvw {

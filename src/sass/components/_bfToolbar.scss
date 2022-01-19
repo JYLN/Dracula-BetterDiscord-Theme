@@ -2,7 +2,7 @@
 
 .bf-toolbar {
   &::before {
-    background: #{$dracula-selection};
+    background: #{$dracula-selection} !important;
   }
 }
 
