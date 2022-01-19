@@ -40,3 +40,23 @@
 .searchBar-3TnChZ {
   box-shadow: none !important;
 }
+
+// Bot Tag
+.botTag-2mryIa {
+  background-color: #{$dracula-purple};
+  color: #{$dracula-background};
+}
+
+// Voice Avatar
+.avatarSpeaking-2pCGrZ {
+  box-shadow: inset 0 0 0 1.35px #{$dracula-green},
+              inset 0 0 0 2px var(--background-secondary);
+}
+
+// Voice Connected Text
+.rtcConnectionStatus-c5A6Av {
+  .rtcConnectionStatusConnected-1c73OK,
+  .ping-2IpLcU .pingForeground-1BRBTc {
+    color: #{$dracula-green};
+  }
+}
