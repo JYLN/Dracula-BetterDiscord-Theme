@@ -32,3 +32,11 @@
 [class^='peopleColumn'] {
   background-color: var(--background-primary);
 }
+
+// Remove box shadow from channel, chat, and friends list header
+.header-3OsQeK,
+.content-1jQy2l:before,
+.tabBody-2dgbAs:before,
+.searchBar-3TnChZ {
+  box-shadow: none;
+}
