@@ -35,6 +35,20 @@
   box-shadow: none !important;
 }
 
+.botTag-2mryIa {
+  background-color: #bd93f9;
+  color: #282a36;
+}
+
+.avatarSpeaking-2pCGrZ {
+  box-shadow: inset 0 0 0 1.35px #50fa7b, inset 0 0 0 2px var(--background-secondary);
+}
+
+.rtcConnectionStatus-c5A6Av .rtcConnectionStatusConnected-1c73OK,
+.rtcConnectionStatus-c5A6Av .ping-2IpLcU .pingForeground-1BRBTc {
+  color: #50fa7b;
+}
+
 code {
   color: #f8f8f2;
 }
