@@ -28,4 +28,39 @@
   background-color: var(--background-primary);
 }
 
+code {
+  color: #f8f8f2;
+}
+
+span.hljs-built_in {
+  color: #bd93f9;
+}
+span.hljs-keyword {
+  color: #ff79c6;
+}
+span.hljs-title {
+  color: #8be9fd;
+}
+span.hljs-attr {
+  color: #f8f8f2;
+}
+span.hljs-string {
+  color: #f1fa8c;
+}
+span.hljs-number {
+  color: #bd93f9;
+}
+span.hljs-symbol {
+  color: #ffb86c;
+}
+span.hljs-meta {
+  color: #f8f8f2;
+}
+span.hljs-meta-keyword {
+  color: #ff79c6;
+}
+span.hljs-meta-string {
+  color: #ffb86c;
+}
+
 /*# sourceMappingURL=main.css.map */
