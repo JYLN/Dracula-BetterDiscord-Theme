@@ -70,4 +70,12 @@ span.hljs-meta-string {
   color: #ffb86c;
 }
 
+.mentioned-Tre-dv {
+  background-color: rgba(255, 184, 108, 0.1);
+}
+
+.mentioned-Tre-dv:before {
+  background-color: #ffb86c;
+}
+
 /*# sourceMappingURL=main.css.map */
