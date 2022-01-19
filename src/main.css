@@ -1,3 +1,31 @@
+:root {
+  --background-primary: #282a36 !important;
+  --background-secondary: #282a36 !important;
+  --background-secondary-alt: #282a36 !important;
+  --background-tertiary: #282a36 !important;
+  --background-accent: #44475a !important;
+  --background-floating: #282a36 !important;
+  --background-modifier-selected: #44475a !important;
+  --activity-card-background: #282a36 !important;
+  --interactive-normal: #f8f8f2 !important;
+  --channeltextarea-background: #44475a !important;
+  --rs-online-color: #50fa7b !important;
+  --rs-idle-color: #ffb86c !important;
+  --rs-dnd-color: #ff5555 !important;
+  --rs-offline-color: #44475a !important;
+  --rs-streaming-color: #bd93f9 !important;
+  --rs-invisible-color: #6272a4 !important;
+  --interactive-muted: #6272a4 !important;
+}
 
+.theme-dark {
+  --scrollbar-auto-track: #44475a;
+  --scrollbar-auto-thumb: #bd93f9;
+  --scrollbar-thin-thumb: #50fa7b;
+}
+
+[class^=peopleColumn] {
+  background-color: var(--background-primary);
+}
 
 /*# sourceMappingURL=main.css.map */
