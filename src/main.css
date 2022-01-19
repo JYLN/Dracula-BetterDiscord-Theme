@@ -2,7 +2,9 @@
   --background-primary: #282a36 !important;
   --background-secondary: #282a36 !important;
   --background-secondary-alt: #282a36 !important;
-  --background-tertiary: #282a36 !important;
+  --background-mobile-primary: #282a36 !important;
+  --background-mobile-secondary: #282a36 !important;
+  --background-tertiary: #343746 !important;
   --background-accent: #44475a !important;
   --background-floating: #282a36 !important;
   --background-modifier-selected: #44475a !important;
@@ -16,6 +18,7 @@
   --rs-streaming-color: #bd93f9 !important;
   --rs-invisible-color: #6272a4 !important;
   --interactive-muted: #6272a4 !important;
+  --header-primary: #f8f8f2 !important;
   --scrollbar-auto-track: #44475a;
   --scrollbar-auto-thumb: #bd93f9;
   --scrollbar-thin-thumb: #6272a4;

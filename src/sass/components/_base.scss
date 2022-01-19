@@ -5,7 +5,9 @@
   --background-primary: #{$dracula-background} !important;
   --background-secondary: #{$dracula-background} !important;
   --background-secondary-alt: #{$dracula-background} !important;
-  --background-tertiary: #{$dracula-background} !important;
+  --background-mobile-primary: #{$dracula-background} !important;
+  --background-mobile-secondary: #{$dracula-background} !important;
+  --background-tertiary: #{$dracula-background-alt} !important;
   --background-accent: #{$dracula-current-line} !important;
   --background-floating: #{$dracula-background} !important;
   --background-modifier-selected: #{$dracula-current-line} !important;
@@ -19,6 +21,7 @@
   --rs-streaming-color: #{$dracula-purple} !important;
   --rs-invisible-color: #{$dracula-comment} !important;
   --interactive-muted: #{$dracula-comment} !important;
+  --header-primary: #{$dracula-foreground} !important;
 
   // Scroll Bar
   --scrollbar-auto-track: #{$dracula-selection};
