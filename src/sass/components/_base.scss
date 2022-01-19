@@ -24,7 +24,7 @@
   --header-primary: #{$dracula-foreground} !important;
 
   // Scroll Bar
-  --scrollbar-auto-track: #{$dracula-selection};
+  --scrollbar-auto-track: #{$dracula-background-alt};
   --scrollbar-auto-thumb: #{$dracula-purple};
   --scrollbar-thin-thumb: #{$dracula-comment};
 }
