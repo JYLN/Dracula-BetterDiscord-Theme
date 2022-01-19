@@ -78,4 +78,63 @@ span.hljs-meta-string {
   background-color: #ffb86c;
 }
 
+#app-mount .wrapper-NhbLHG {
+  border-radius: 0;
+}
+#app-mount .wrapper-NhbLHG .content-1gYQeQ {
+  background-color: transparent;
+}
+#app-mount .wrapper-NhbLHG::before {
+  content: "";
+  border-left: solid 2px transparent;
+}
+#app-mount .wrapper-NhbLHG:hover {
+  background: transparent;
+}
+#app-mount .wrapper-NhbLHG:hover .overflow-1wOqNV, #app-mount .wrapper-NhbLHG:hover div > svg {
+  color: #ff79c6;
+}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+#app-mount .modeSelected-3DmyhH .overflow-1wOqNV, #app-mount .modeSelected-3DmyhH div > svg {
+  color: #8be9fd;
+}
+#app-mount .modeSelected-3DmyhH::before {
+  border-left-color: #8be9fd;
+}
+#app-mount .modeUnread-3Cxepe .unread-36eUEm {
+  display: none;
+}
+#app-mount .modeUnread-3Cxepe .overflow-1wOqNV, #app-mount .modeUnread-3Cxepe div > svg {
+  color: #f8f8f2;
+}
+#app-mount .modeUnread-3Cxepe::before {
+  border-left-color: #f8f8f2;
+}
+#app-mount .modeConnected-NrO4cP {
+  background-color: rgba(80, 250, 123, 0.3);
+}
+#app-mount .modeConnected-NrO4cP div > svg {
+  color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP .overflow-1wOqNV {
+  color: #f8f8f2;
+}
+#app-mount .modeConnected-NrO4cP::before {
+  border-left-color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP:hover {
+  background-color: rgba(80, 250, 123, 0.4);
+}
+#app-mount .modeConnected-NrO4cP:hover div > svg {
+  color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP:hover .overflow-1wOqNV {
+  color: #f8f8f2;
+}
+
 /*# sourceMappingURL=main.css.map */
