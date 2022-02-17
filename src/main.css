@@ -8,6 +8,7 @@
   --background-accent: #44475a !important;
   --background-floating: #282a36 !important;
   --background-modifier-selected: #44475a !important;
+  --background-modifier-hover: #44475a !important;
   --activity-card-background: #282a36 !important;
   --interactive-normal: #f8f8f2 !important;
   --channeltextarea-background: #44475a !important;
@@ -35,7 +36,7 @@
   box-shadow: none !important;
 }
 
-.botTag-2mryIa {
+.botTag-2mryIa, .botTag-1NoD0B {
   background-color: #bd93f9;
   color: #282a36;
 }
@@ -57,6 +58,15 @@
 .wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
   background-color: #bd93f9;
   color: #f8f8f2;
+}
+
+#bd-pub-button:hover {
+  background-color: #bd93f9;
+  color: #f8f8f2;
+}
+
+button[aria-label*=gift] {
+  display: none;
 }
 
 code {

@@ -1,4 +1,13 @@
 <details>
+<summary><b>v1.0.1</b></summary>
+
+- Update styling of chat window bot tags to mimic styling of member list bot tags from v1.0.0
+- Remove Nitro Gift button from chat bar (wasn't working as a BetterDiscord feature as of release)
+- Add Dracula theme styling to BetterDiscord's 'public' server list button
+
+</details>
+
+<details>
 <summary><b>v1.0.0</b></summary>
 
 Initial Release 🎉

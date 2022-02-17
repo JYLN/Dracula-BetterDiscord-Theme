@@ -11,6 +11,7 @@
   --background-accent: #{$dracula-current-line} !important;
   --background-floating: #{$dracula-background} !important;
   --background-modifier-selected: #{$dracula-current-line} !important;
+  --background-modifier-hover: #{$dracula-selection} !important;
   --activity-card-background: #{$dracula-background} !important;
   --interactive-normal: #{$dracula-foreground} !important;
   --channeltextarea-background: #{$dracula-selection} !important;
@@ -43,7 +44,7 @@
 }
 
 // Bot Tag
-.botTag-2mryIa {
+.botTag-2mryIa, .botTag-1NoD0B {
   background-color: #{$dracula-purple};
   color: #{$dracula-background};
 }
@@ -76,4 +77,17 @@
       color: #{$dracula-foreground};
     }
   }
+}
+
+// Public Server Button
+#bd-pub-button {
+  &:hover {
+    background-color: #{$dracula-purple};
+    color: #{$dracula-foreground};
+  }
+}
+
+// Hide Gift Button in Chat Bar
+button[aria-label*="gift"] {
+  display: none;
 }
