@@ -8,6 +8,7 @@
   --background-accent: #44475a !important;
   --background-floating: #282a36 !important;
   --background-modifier-selected: #44475a !important;
+  --background-modifier-hover: #44475a !important;
   --activity-card-background: #282a36 !important;
   --interactive-normal: #f8f8f2 !important;
   --channeltextarea-background: #44475a !important;
@@ -62,6 +63,10 @@
 #bd-pub-button:hover {
   background-color: #bd93f9;
   color: #f8f8f2;
+}
+
+button[aria-label*=gift] {
+  display: none;
 }
 
 code {

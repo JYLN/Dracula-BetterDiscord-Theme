@@ -11,6 +11,7 @@
   --background-accent: #{$dracula-current-line} !important;
   --background-floating: #{$dracula-background} !important;
   --background-modifier-selected: #{$dracula-current-line} !important;
+  --background-modifier-hover: #{$dracula-selection} !important;
   --activity-card-background: #{$dracula-background} !important;
   --interactive-normal: #{$dracula-foreground} !important;
   --channeltextarea-background: #{$dracula-selection} !important;
@@ -84,4 +85,9 @@
     background-color: #{$dracula-purple};
     color: #{$dracula-foreground};
   }
+}
+
+// Hide Gift Button in Chat Bar
+button[aria-label*="gift"] {
+  display: none;
 }
