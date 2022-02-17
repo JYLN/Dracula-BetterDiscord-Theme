@@ -59,6 +59,11 @@
   color: #f8f8f2;
 }
 
+#bd-pub-button:hover {
+  background-color: #bd93f9;
+  color: #f8f8f2;
+}
+
 code {
   color: #f8f8f2;
 }

@@ -77,3 +77,11 @@
     }
   }
 }
+
+// Public Server Button
+#bd-pub-button {
+  &:hover {
+    background-color: #{$dracula-purple};
+    color: #{$dracula-foreground};
+  }
+}
