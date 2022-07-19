@@ -1,4 +1,4 @@
-:root {
+:root, .theme-dark {
   --background-primary: #282a36 !important;
   --background-secondary: #282a36 !important;
   --background-secondary-alt: #282a36 !important;
@@ -67,6 +67,14 @@
 
 button[aria-label*=gift] {
   display: none;
+}
+
+.selected-g-kMVV.item-3XjbnG {
+  background-color: #44475a;
+}
+
+.item-3XjbnG[aria-label="Add Friend"] {
+  background-color: #bd93f9 !important;
 }
 
 code {

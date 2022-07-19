@@ -1,7 +1,7 @@
 @import "../helpers/variables";
 
 // Discord Root Colors
-:root {
+:root, .theme-dark {
   --background-primary: #{$dracula-background} !important;
   --background-secondary: #{$dracula-background} !important;
   --background-secondary-alt: #{$dracula-background} !important;
@@ -90,4 +90,14 @@
 // Hide Gift Button in Chat Bar
 button[aria-label*="gift"] {
   display: none;
+}
+
+// Friends List Buttons
+.item-3XjbnG {
+  @at-root .selected-g-kMVV#{&} {
+    background-color: #{$dracula-current-line};
+  }
+  &[aria-label="Add Friend"] {
+    background-color: #{$dracula-purple} !important;
+  }
 }
