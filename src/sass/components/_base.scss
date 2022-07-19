@@ -91,3 +91,13 @@
 button[aria-label*="gift"] {
   display: none;
 }
+
+// Friends List Buttons
+.item-3XjbnG {
+  @at-root .selected-g-kMVV#{&} {
+    background-color: #{$dracula-current-line};
+  }
+  &[aria-label="Add Friend"] {
+    background-color: #{$dracula-purple} !important;
+  }
+}
