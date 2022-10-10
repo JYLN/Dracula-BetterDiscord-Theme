@@ -1,4 +1,4 @@
-@import "../helpers/variables";
+@import '../helpers/variables';
 
 #app-mount {
     // Remove default selected channel styling, setup new channel indicator
@@ -10,7 +10,7 @@
         }
 
         &::before {
-            content: "";
+            content: '';
             border-left: #{$border-set} transparent;
         }
 

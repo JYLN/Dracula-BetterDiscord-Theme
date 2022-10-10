@@ -1,4 +1,4 @@
-@import "../helpers/variables";
+@import '../helpers/variables';
 
 // Discord Root Colors
 :root,
@@ -32,7 +32,7 @@
 }
 
 // Friends List
-[class^="peopleColumn"] {
+[class^='peopleColumn'] {
     background-color: var(--background-primary);
 }
 
@@ -91,7 +91,7 @@
 }
 
 // Hide Gift Button in Chat Bar
-button[aria-label*="gift"] {
+button[aria-label*='gift'] {
     display: none;
 }
 
@@ -100,7 +100,7 @@ button[aria-label*="gift"] {
     @at-root .selected-g-kMVV#{&} {
         background-color: #{$dracula-current-line};
     }
-    &[aria-label="Add Friend"] {
+    &[aria-label='Add Friend'] {
         background-color: #{$dracula-purple} !important;
     }
 }
