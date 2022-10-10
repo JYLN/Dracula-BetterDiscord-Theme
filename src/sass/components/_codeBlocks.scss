@@ -1,38 +1,47 @@
-@import "../helpers/variables";
+@import '../helpers/variables';
 
 code {
-  color: #{$dracula-foreground};
+    color: #{$dracula-foreground};
 }
 
 span {
-  &.hljs-built_in {
-    color: #{$dracula-purple};
-  }
-  &.hljs-keyword {
-    color: #{$dracula-pink};
-  }
-  &.hljs-title {
-    color: #{$dracula-cyan};
-  }
-  &.hljs-attr {
-    color: #{$dracula-foreground};
-  }
-  &.hljs-string {
-    color: #{$dracula-yellow};
-  }
-  &.hljs-number {
-    color: #{$dracula-purple};
-  }
-  &.hljs-symbol {
-    color: #{$dracula-orange};
-  }
-  &.hljs-meta {
-    color: #{$dracula-foreground};
-  }
-  &.hljs-meta-keyword {
-    color: #{$dracula-pink};
-  }
-  &.hljs-meta-string {
-    color: #{$dracula-orange};
-  }
+    &.hljs-built_in {
+        color: #{$dracula-purple};
+    }
+
+    &.hljs-keyword {
+        color: #{$dracula-pink};
+    }
+
+    &.hljs-title {
+        color: #{$dracula-cyan};
+    }
+
+    &.hljs-attr {
+        color: #{$dracula-foreground};
+    }
+
+    &.hljs-string {
+        color: #{$dracula-yellow};
+    }
+
+    &.hljs-number {
+        color: #{$dracula-purple};
+    }
+
+    &.hljs-symbol {
+        color: #{$dracula-orange};
+    }
+
+    &.hljs-meta {
+        color: #{$dracula-foreground};
+    }
+
+    &.hljs-meta-keyword {
+        color: #{$dracula-pink};
+    }
+
+    &.hljs-meta-string {
+        color: #{$dracula-orange};
+    }
 }

@@ -1,91 +1,95 @@
-@import "../helpers/variables";
+@import '../helpers/variables';
 
 #app-mount {
-  // Remove default selected channel styling, setup new channel indicator
-  .wrapper-NhbLHG {
-    border-radius: 0;
-
-    .content-1gYQeQ {
-      background-color: transparent;
-    }
-
-    &::before {
-      content: "";
-      border-left: #{$border-set} transparent;
-    }
-
-    // Hover Indicators
-    &:hover {
-      background: transparent;
-      .overflow-1wOqNV, div > svg {
-        color: #{$dracula-pink};
-      }
-    }
-  }
-
-  .containerDefault-YUSmu3 {
+    // Remove default selected channel styling, setup new channel indicator
     .wrapper-NhbLHG {
-      &::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-      }
-    }
-  }
+        border-radius: 0;
 
-  // Selected Indicators
-  .modeSelected-3DmyhH {
-    .overflow-1wOqNV, div > svg {
-      color: #{$dracula-cyan};
-    }
+        .content-1gYQeQ {
+            background-color: transparent;
+        }
 
-    &::before {
-      border-left-color: #{$dracula-cyan};
-    }
-  }
+        &::before {
+            content: '';
+            border-left: #{$border-set} transparent;
+        }
 
-  // Unread Indicators
-  .modeUnread-3Cxepe {
-    .unread-36eUEm {
-      display: none;
+        // Hover Indicators
+        &:hover {
+            background: transparent;
+
+            .overflow-1wOqNV,
+            div > svg {
+                color: #{$dracula-pink};
+            }
+        }
     }
 
-    .overflow-1wOqNV, div > svg {
-      color: #{$dracula-foreground};
+    .containerDefault-YUSmu3 {
+        .wrapper-NhbLHG {
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+            }
+        }
     }
 
-    &::before {
-      border-left-color: #{$dracula-foreground};
-    }
-  }
+    // Selected Indicators
+    .modeSelected-3DmyhH {
+        .overflow-1wOqNV,
+        div > svg {
+            color: #{$dracula-cyan};
+        }
 
-  // Voice Connected Indicators
-  .modeConnected-NrO4cP {
-    background-color: fade-out($dracula-green, 0.7);
-
-    div > svg {
-      color: #{$dracula-green};
-    }
-
-    .overflow-1wOqNV {
-      color: #{$dracula-foreground};
+        &::before {
+            border-left-color: #{$dracula-cyan};
+        }
     }
 
-    &::before {
-      border-left-color: #{$dracula-green};
+    // Unread Indicators
+    .modeUnread-3Cxepe {
+        .unread-36eUEm {
+            display: none;
+        }
+
+        .overflow-1wOqNV,
+        div > svg {
+            color: #{$dracula-foreground};
+        }
+
+        &::before {
+            border-left-color: #{$dracula-foreground};
+        }
     }
 
-    &:hover {
-      background-color: fade-out($dracula-green, 0.6);
+    // Voice Connected Indicators
+    .modeConnected-NrO4cP {
+        background-color: fade-out($dracula-green, 0.7);
 
-      div > svg {
-        color: #{$dracula-green};
-      }
+        div > svg {
+            color: #{$dracula-green};
+        }
 
-      .overflow-1wOqNV {
-        color: #{$dracula-foreground};
-      }
+        .overflow-1wOqNV {
+            color: #{$dracula-foreground};
+        }
+
+        &::before {
+            border-left-color: #{$dracula-green};
+        }
+
+        &:hover {
+            background-color: fade-out($dracula-green, 0.6);
+
+            div > svg {
+                color: #{$dracula-green};
+            }
+
+            .overflow-1wOqNV {
+                color: #{$dracula-foreground};
+            }
+        }
     }
-  }
 }

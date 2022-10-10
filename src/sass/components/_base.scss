@@ -1,38 +1,39 @@
-@import "../helpers/variables";
+@import '../helpers/variables';
 
 // Discord Root Colors
-:root, .theme-dark {
-  --background-primary: #{$dracula-background} !important;
-  --background-secondary: #{$dracula-background} !important;
-  --background-secondary-alt: #{$dracula-background} !important;
-  --background-mobile-primary: #{$dracula-background} !important;
-  --background-mobile-secondary: #{$dracula-background} !important;
-  --background-tertiary: #{$dracula-background-alt} !important;
-  --background-accent: #{$dracula-current-line} !important;
-  --background-floating: #{$dracula-background} !important;
-  --background-modifier-selected: #{$dracula-current-line} !important;
-  --background-modifier-hover: #{$dracula-selection} !important;
-  --activity-card-background: #{$dracula-background} !important;
-  --interactive-normal: #{$dracula-foreground} !important;
-  --channeltextarea-background: #{$dracula-selection} !important;
-  --rs-online-color: #{$dracula-green} !important;
-  --rs-idle-color: #{$dracula-orange} !important;
-  --rs-dnd-color: #{$dracula-red} !important;
-  --rs-offline-color: #{$dracula-selection} !important;
-  --rs-streaming-color: #{$dracula-purple} !important;
-  --rs-invisible-color: #{$dracula-comment} !important;
-  --interactive-muted: #{$dracula-comment} !important;
-  --header-primary: #{$dracula-foreground} !important;
+:root,
+.theme-dark {
+    --background-primary: #{$dracula-background} !important;
+    --background-secondary: #{$dracula-background} !important;
+    --background-secondary-alt: #{$dracula-background} !important;
+    --background-mobile-primary: #{$dracula-background} !important;
+    --background-mobile-secondary: #{$dracula-background} !important;
+    --background-tertiary: #{$dracula-background-alt} !important;
+    --background-accent: #{$dracula-current-line} !important;
+    --background-floating: #{$dracula-background} !important;
+    --background-modifier-selected: #{$dracula-current-line} !important;
+    --background-modifier-hover: #{$dracula-selection} !important;
+    --activity-card-background: #{$dracula-background} !important;
+    --interactive-normal: #{$dracula-foreground} !important;
+    --channeltextarea-background: #{$dracula-selection} !important;
+    --rs-online-color: #{$dracula-green} !important;
+    --rs-idle-color: #{$dracula-orange} !important;
+    --rs-dnd-color: #{$dracula-red} !important;
+    --rs-offline-color: #{$dracula-selection} !important;
+    --rs-streaming-color: #{$dracula-purple} !important;
+    --rs-invisible-color: #{$dracula-comment} !important;
+    --interactive-muted: #{$dracula-comment} !important;
+    --header-primary: #{$dracula-foreground} !important;
 
-  // Scroll Bar
-  --scrollbar-auto-track: #{$dracula-background-alt};
-  --scrollbar-auto-thumb: #{$dracula-purple};
-  --scrollbar-thin-thumb: #{$dracula-comment};
+    // Scroll Bar
+    --scrollbar-auto-track: #{$dracula-background-alt};
+    --scrollbar-auto-thumb: #{$dracula-purple};
+    --scrollbar-thin-thumb: #{$dracula-comment};
 }
 
 // Friends List
 [class^='peopleColumn'] {
-  background-color: var(--background-primary);
+    background-color: var(--background-primary);
 }
 
 // Remove box shadow from channel, chat, and friends list header
@@ -40,64 +41,66 @@
 .content-1jQy2l:before,
 .tabBody-2dgbAs:before,
 .searchBar-3TnChZ {
-  box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 // Bot Tag
-.botTag-2mryIa, .botTag-1NoD0B {
-  background-color: #{$dracula-purple};
-  color: #{$dracula-background};
+.botTag-2mryIa,
+.botTag-1NoD0B {
+    background-color: #{$dracula-purple};
+    color: #{$dracula-background};
 }
 
 // Voice Avatar
 .avatarSpeaking-2pCGrZ,
 .avatarSpeaking-33RRJU {
-  box-shadow: inset 0 0 0 1.35px #{$dracula-green},
-              inset 0 0 0 2px var(--background-secondary);
+    box-shadow: inset 0 0 0 1.35px #{$dracula-green},
+        inset 0 0 0 2px var(--background-secondary);
 }
 
 // Voice Connected Text
 .rtcConnectionStatus-c5A6Av {
-  .rtcConnectionStatusConnected-1c73OK,
-  .ping-2IpLcU .pingForeground-1BRBTc {
-    color: #{$dracula-green};
-  }
+    .rtcConnectionStatusConnected-1c73OK,
+    .ping-2IpLcU .pingForeground-1BRBTc {
+        color: #{$dracula-green};
+    }
 }
 
 // Live Tag
 .live-1V2D-f {
-  background-color: #{$dracula-red} !important;
+    background-color: #{$dracula-red} !important;
 }
 
 // Discord Menu Logo
 .wrapper-3kah-n {
-  &:hover, &.selected-1Drb7Z {
-    .childWrapper-1j_1ub {
-      background-color: #{$dracula-purple};
-      color: #{$dracula-foreground};
+    &:hover,
+    &.selected-1Drb7Z {
+        .childWrapper-1j_1ub {
+            background-color: #{$dracula-purple};
+            color: #{$dracula-foreground};
+        }
     }
-  }
 }
 
 // Public Server Button
 #bd-pub-button {
-  &:hover {
-    background-color: #{$dracula-purple};
-    color: #{$dracula-foreground};
-  }
+    &:hover {
+        background-color: #{$dracula-purple};
+        color: #{$dracula-foreground};
+    }
 }
 
 // Hide Gift Button in Chat Bar
-button[aria-label*="gift"] {
-  display: none;
+button[aria-label*='gift'] {
+    display: none;
 }
 
 // Friends List Buttons
 .item-3XjbnG {
-  @at-root .selected-g-kMVV#{&} {
-    background-color: #{$dracula-current-line};
-  }
-  &[aria-label="Add Friend"] {
-    background-color: #{$dracula-purple} !important;
-  }
+    @at-root .selected-g-kMVV#{&} {
+        background-color: #{$dracula-current-line};
+    }
+    &[aria-label='Add Friend'] {
+        background-color: #{$dracula-purple} !important;
+    }
 }
