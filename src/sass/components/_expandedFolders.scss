@@ -1,19 +1,19 @@
 @import "../helpers/variables";
 
 .folder-241Joy {
-  background-color: inherit;
+    background-color: inherit;
 }
 
 .expandedFolderIconWrapper-3RwQpD {
-  background-color: #{$dracula-background};
-  transition: background-color .15s ease-out;
-  -webkit-transition: background-color .15s ease-out;
+    background-color: #{$dracula-background};
+    transition: background-color 0.15s ease-out;
+    -webkit-transition: background-color 0.15s ease-out;
 
-  &:hover {
-    background-color: #{$dracula-current-line};
-  }
+    &:hover {
+        background-color: #{$dracula-current-line};
+    }
 }
 
 .expandedFolderBackground-1kSAf6 {
-  background-color: #{$dracula-background};
+    background-color: #{$dracula-background};
 }

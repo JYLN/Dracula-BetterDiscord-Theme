@@ -1,9 +1,9 @@
 @import "../helpers/variables";
 
 .mentioned-Tre-dv {
-  background-color: fade-out($dracula-orange, 0.9);
+    background-color: fade-out($dracula-orange, 0.9);
 }
 
 .mentioned-Tre-dv:before {
-  background-color: #{$dracula-orange};
+    background-color: #{$dracula-orange};
 }

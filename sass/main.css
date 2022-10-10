@@ -1,0 +1,215 @@
+:root,
+.theme-dark {
+  --background-primary: #282a36 !important;
+  --background-secondary: #282a36 !important;
+  --background-secondary-alt: #282a36 !important;
+  --background-mobile-primary: #282a36 !important;
+  --background-mobile-secondary: #282a36 !important;
+  --background-tertiary: #343746 !important;
+  --background-accent: #44475a !important;
+  --background-floating: #282a36 !important;
+  --background-modifier-selected: #44475a !important;
+  --background-modifier-hover: #44475a !important;
+  --activity-card-background: #282a36 !important;
+  --interactive-normal: #f8f8f2 !important;
+  --channeltextarea-background: #44475a !important;
+  --rs-online-color: #50fa7b !important;
+  --rs-idle-color: #ffb86c !important;
+  --rs-dnd-color: #ff5555 !important;
+  --rs-offline-color: #44475a !important;
+  --rs-streaming-color: #bd93f9 !important;
+  --rs-invisible-color: #6272a4 !important;
+  --interactive-muted: #6272a4 !important;
+  --header-primary: #f8f8f2 !important;
+  --scrollbar-auto-track: #343746;
+  --scrollbar-auto-thumb: #bd93f9;
+  --scrollbar-thin-thumb: #6272a4;
+}
+
+[class^=peopleColumn] {
+  background-color: var(--background-primary);
+}
+
+.header-3OsQeK,
+.content-1jQy2l:before,
+.tabBody-2dgbAs:before,
+.searchBar-3TnChZ {
+  box-shadow: none !important;
+}
+
+.botTag-2mryIa,
+.botTag-1NoD0B {
+  background-color: #bd93f9;
+  color: #282a36;
+}
+
+.avatarSpeaking-2pCGrZ,
+.avatarSpeaking-33RRJU {
+  box-shadow: inset 0 0 0 1.35px #50fa7b, inset 0 0 0 2px var(--background-secondary);
+}
+
+.rtcConnectionStatus-c5A6Av .rtcConnectionStatusConnected-1c73OK,
+.rtcConnectionStatus-c5A6Av .ping-2IpLcU .pingForeground-1BRBTc {
+  color: #50fa7b;
+}
+
+.live-1V2D-f {
+  background-color: #ff5555 !important;
+}
+
+.wrapper-3kah-n:hover .childWrapper-1j_1ub, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-color: #bd93f9;
+  color: #f8f8f2;
+}
+
+#bd-pub-button:hover {
+  background-color: #bd93f9;
+  color: #f8f8f2;
+}
+
+button[aria-label*=gift] {
+  display: none;
+}
+
+.selected-g-kMVV.item-3XjbnG {
+  background-color: #44475a;
+}
+
+.item-3XjbnG[aria-label="Add Friend"] {
+  background-color: #bd93f9 !important;
+}
+
+code {
+  color: #f8f8f2;
+}
+
+span.hljs-built_in {
+  color: #bd93f9;
+}
+span.hljs-keyword {
+  color: #ff79c6;
+}
+span.hljs-title {
+  color: #8be9fd;
+}
+span.hljs-attr {
+  color: #f8f8f2;
+}
+span.hljs-string {
+  color: #f1fa8c;
+}
+span.hljs-number {
+  color: #bd93f9;
+}
+span.hljs-symbol {
+  color: #ffb86c;
+}
+span.hljs-meta {
+  color: #f8f8f2;
+}
+span.hljs-meta-keyword {
+  color: #ff79c6;
+}
+span.hljs-meta-string {
+  color: #ffb86c;
+}
+
+.mentioned-Tre-dv {
+  background-color: rgba(255, 184, 108, 0.1);
+}
+
+.mentioned-Tre-dv:before {
+  background-color: #ffb86c;
+}
+
+#app-mount .wrapper-NhbLHG {
+  border-radius: 0;
+}
+#app-mount .wrapper-NhbLHG .content-1gYQeQ {
+  background-color: transparent;
+}
+#app-mount .wrapper-NhbLHG::before {
+  content: "";
+  border-left: solid 2px transparent;
+}
+#app-mount .wrapper-NhbLHG:hover {
+  background: transparent;
+}
+#app-mount .wrapper-NhbLHG:hover .overflow-1wOqNV,
+#app-mount .wrapper-NhbLHG:hover div > svg {
+  color: #ff79c6;
+}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+#app-mount .modeSelected-3DmyhH .overflow-1wOqNV,
+#app-mount .modeSelected-3DmyhH div > svg {
+  color: #8be9fd;
+}
+#app-mount .modeSelected-3DmyhH::before {
+  border-left-color: #8be9fd;
+}
+#app-mount .modeUnread-3Cxepe .unread-36eUEm {
+  display: none;
+}
+#app-mount .modeUnread-3Cxepe .overflow-1wOqNV,
+#app-mount .modeUnread-3Cxepe div > svg {
+  color: #f8f8f2;
+}
+#app-mount .modeUnread-3Cxepe::before {
+  border-left-color: #f8f8f2;
+}
+#app-mount .modeConnected-NrO4cP {
+  background-color: rgba(80, 250, 123, 0.3);
+}
+#app-mount .modeConnected-NrO4cP div > svg {
+  color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP .overflow-1wOqNV {
+  color: #f8f8f2;
+}
+#app-mount .modeConnected-NrO4cP::before {
+  border-left-color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP:hover {
+  background-color: rgba(80, 250, 123, 0.4);
+}
+#app-mount .modeConnected-NrO4cP:hover div > svg {
+  color: #50fa7b;
+}
+#app-mount .modeConnected-NrO4cP:hover .overflow-1wOqNV {
+  color: #f8f8f2;
+}
+
+.folder-241Joy {
+  background-color: inherit;
+}
+
+.expandedFolderIconWrapper-3RwQpD {
+  background-color: #282a36;
+  transition: background-color 0.15s ease-out;
+  -webkit-transition: background-color 0.15s ease-out;
+}
+.expandedFolderIconWrapper-3RwQpD:hover {
+  background-color: #44475a;
+}
+
+.expandedFolderBackground-1kSAf6 {
+  background-color: #282a36;
+}
+
+.bf-toolbar::before {
+  background: #44475a !important;
+}
+
+.tooltipBlack-vMYxvw {
+  background-color: #343746 !important;
+}
+.tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
+  border-top-color: #343746 !important;
+}
+
+/*# sourceMappingURL=main.css.map */

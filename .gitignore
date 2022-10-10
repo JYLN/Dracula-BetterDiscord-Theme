@@ -3,3 +3,5 @@ planning
 *.iml
 out
 gen
+.prettierrc.json
+package.json
